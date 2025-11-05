@@ -37,8 +37,8 @@ In order to simulate synthetic data
 ### 2. `SHED+/`
 
 Running SHED+
-- `g++ SHED+.cpp`
-- `a.exe SHED+.cpp`
+- `g++ SHED1.cpp`
+- `a.exe SHED1.cpp`
 
 
 Line 78 
