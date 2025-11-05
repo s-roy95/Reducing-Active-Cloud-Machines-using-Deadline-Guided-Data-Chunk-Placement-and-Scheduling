@@ -12,7 +12,7 @@ Contains all the datasets used in the experiments.
  
    - 
 - **User Request/**
-  - Each User job 'j' in 'trace.txt' contains 5 fields:
+  - Each User job `j` in `trace.txt` contains 5 fields:
     - `id_j`: Identification of the job 'j'
     - `arrival time`: Considered all jobs arrive at the same time
     - `deadline D`: Uniform for all the jobs in the trace
