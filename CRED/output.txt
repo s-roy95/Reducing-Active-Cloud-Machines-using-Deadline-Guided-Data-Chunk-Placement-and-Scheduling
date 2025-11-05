@@ -1,0 +1,665 @@
+
+Test Case: 
+Number of Jobs: 50
+Deadline of Job1 = 5, number of chunks in Job1 = 10
+Chunks Array: 9 26 13 6 9 12 28 21 14 22 
+Deadline of Job2 = 5, number of chunks in Job2 = 7
+Chunks Array: 15 8 24 22 22 0 28 
+Deadline of Job3 = 5, number of chunks in Job3 = 7
+Chunks Array: 20 1 21 20 20 2 27 
+Deadline of Job4 = 5, number of chunks in Job4 = 8
+Chunks Array: 23 11 23 17 21 28 11 16 
+Deadline of Job5 = 5, number of chunks in Job5 = 9
+Chunks Array: 14 27 19 14 13 7 5 5 14 
+Deadline of Job6 = 5, number of chunks in Job6 = 7
+Chunks Array: 12 23 13 4 23 27 1 
+Deadline of Job7 = 5, number of chunks in Job7 = 8
+Chunks Array: 21 18 22 9 4 13 26 1 
+Deadline of Job8 = 5, number of chunks in Job8 = 10
+Chunks Array: 5 28 20 8 20 0 3 18 3 4 
+Deadline of Job9 = 5, number of chunks in Job9 = 7
+Chunks Array: 14 27 29 19 24 6 9 
+Deadline of Job10 = 5, number of chunks in Job10 = 6
+Chunks Array: 18 9 24 27 10 11 
+Deadline of Job11 = 5, number of chunks in Job11 = 10
+Chunks Array: 12 0 14 7 7 8 17 22 26 14 
+Deadline of Job12 = 5, number of chunks in Job12 = 11
+Chunks Array: 18 24 12 24 0 7 9 5 23 2 2 
+Deadline of Job13 = 5, number of chunks in Job13 = 5
+Chunks Array: 20 23 27 17 4 
+Deadline of Job14 = 5, number of chunks in Job14 = 6
+Chunks Array: 13 7 17 16 17 12 
+Deadline of Job15 = 5, number of chunks in Job15 = 8
+Chunks Array: 2 18 4 9 0 9 18 8 
+Deadline of Job16 = 5, number of chunks in Job16 = 11
+Chunks Array: 10 26 12 15 4 16 0 11 22 12 15 
+Deadline of Job17 = 5, number of chunks in Job17 = 6
+Chunks Array: 19 12 7 27 23 3 
+Deadline of Job18 = 5, number of chunks in Job18 = 9
+Chunks Array: 18 15 0 11 10 4 0 15 15 
+Deadline of Job19 = 5, number of chunks in Job19 = 9
+Chunks Array: 12 12 14 18 24 21 3 24 9 
+Deadline of Job20 = 5, number of chunks in Job20 = 8
+Chunks Array: 2 23 0 25 5 18 15 29 
+Deadline of Job21 = 5, number of chunks in Job21 = 9
+Chunks Array: 2 1 5 24 22 3 6 13 4 
+Deadline of Job22 = 5, number of chunks in Job22 = 6
+Chunks Array: 25 3 12 11 7 23 
+Deadline of Job23 = 5, number of chunks in Job23 = 9
+Chunks Array: 28 13 25 5 24 23 27 3 25 
+Deadline of Job24 = 5, number of chunks in Job24 = 9
+Chunks Array: 25 10 11 2 25 4 12 15 14 
+Deadline of Job25 = 5, number of chunks in Job25 = 10
+Chunks Array: 0 23 9 14 25 10 27 3 22 26 
+Deadline of Job26 = 5, number of chunks in Job26 = 8
+Chunks Array: 1 15 7 11 11 23 1 16 
+Deadline of Job27 = 5, number of chunks in Job27 = 8
+Chunks Array: 15 2 20 12 21 20 10 25 
+Deadline of Job28 = 5, number of chunks in Job28 = 5
+Chunks Array: 11 12 17 16 20 
+Deadline of Job29 = 5, number of chunks in Job29 = 7
+Chunks Array: 21 28 12 29 28 13 14 
+Deadline of Job30 = 5, number of chunks in Job30 = 10
+Chunks Array: 13 17 23 11 17 27 13 26 11 24 
+Deadline of Job31 = 5, number of chunks in Job31 = 10
+Chunks Array: 21 0 22 9 5 0 17 23 18 5 
+Deadline of Job32 = 5, number of chunks in Job32 = 8
+Chunks Array: 29 23 11 17 17 9 13 24 
+Deadline of Job33 = 5, number of chunks in Job33 = 8
+Chunks Array: 21 22 22 5 13 9 20 28 
+Deadline of Job34 = 5, number of chunks in Job34 = 8
+Chunks Array: 19 23 16 12 14 0 19 14 
+Deadline of Job35 = 5, number of chunks in Job35 = 11
+Chunks Array: 11 2 1 7 23 1 18 24 16 22 18 
+Deadline of Job36 = 5, number of chunks in Job36 = 5
+Chunks Array: 15 24 23 14 23 
+Deadline of Job37 = 5, number of chunks in Job37 = 9
+Chunks Array: 17 15 23 5 28 4 7 4 13 
+Deadline of Job38 = 5, number of chunks in Job38 = 9
+Chunks Array: 28 13 24 23 11 6 1 20 12 
+Deadline of Job39 = 5, number of chunks in Job39 = 9
+Chunks Array: 6 17 8 2 3 22 16 28 27 
+Deadline of Job40 = 5, number of chunks in Job40 = 10
+Chunks Array: 22 26 10 1 13 8 5 0 2 18 
+Deadline of Job41 = 5, number of chunks in Job41 = 11
+Chunks Array: 0 2 16 11 17 26 1 21 18 24 11 
+Deadline of Job42 = 5, number of chunks in Job42 = 9
+Chunks Array: 27 25 28 9 28 14 1 23 27 
+Deadline of Job43 = 5, number of chunks in Job43 = 5
+Chunks Array: 16 24 20 19 4 
+Deadline of Job44 = 5, number of chunks in Job44 = 5
+Chunks Array: 4 0 19 1 11 
+Deadline of Job45 = 5, number of chunks in Job45 = 11
+Chunks Array: 13 5 0 10 8 10 5 17 12 0 14 
+Deadline of Job46 = 5, number of chunks in Job46 = 10
+Chunks Array: 7 9 16 0 2 21 21 22 3 13 
+Deadline of Job47 = 5, number of chunks in Job47 = 5
+Chunks Array: 4 2 0 2 22 
+Deadline of Job48 = 5, number of chunks in Job48 = 7
+Chunks Array: 20 28 1 18 24 19 4 
+Deadline of Job49 = 5, number of chunks in Job49 = 10
+Chunks Array: 26 10 16 11 8 8 9 7 9 18 
+Deadline of Job50 = 5, number of chunks in Job50 = 7
+Chunks Array: 1 1 10 12 20 7 28 
+No. of VM's : 3, Maximum Capacity: 5
+
+Node 1:
+VM 1:  6 6 6 6 6 
+VM 2:  23 23 23 23 23 
+VM 3:  11 11 11 11 11 
+
+Node 2:
+VM 1:  23 29 29 29 29 
+VM 2:  11 23 23 23 23 
+VM 3:  12 11 11 11 11 
+
+Node 3:
+VM 1:  23 23 23 23 23 
+VM 2:  11 11 11 11 11 
+VM 3:  12 12 12 12 12 
+
+Node 4:
+VM 1:  23 23 23 23 23 
+VM 2:  12 11 11 11 11 
+VM 3:  24 12 12 12 12 
+
+Node 5:
+VM 1:  12 12 12 23 23 
+VM 2:  24 24 24 12 12 
+VM 3:  9 9 9 24 24 
+
+Node 6:
+VM 1:  24 24 12 12 12 
+VM 2:  9 9 24 24 24 
+VM 3:  13 13 9 9 9 
+
+Node 7:
+VM 1:  24 24 24 24 24 
+VM 2:  9 9 9 9 9 
+VM 3:  13 13 13 13 13 
+
+Node 8:
+VM 1:  13 9 9 9 24 
+VM 2:  1 13 13 13 9 
+VM 3:  22 1 1 1 13 
+
+Node 9:
+VM 1:  13 13 13 13 13 
+VM 2:  1 1 1 1 1 
+VM 3:  22 22 22 22 22 
+
+Node 10:
+VM 1:  1 1 1 1 1 
+VM 2:  22 22 22 22 22 
+VM 3:  18 18 18 18 18 
+
+Node 11:
+VM 1:  22 22 22 1 1 
+VM 2:  18 18 18 22 22 
+VM 3:  14 14 14 18 18 
+
+Node 12:
+VM 1:  18 18 18 18 18 
+VM 2:  14 14 14 14 14 
+VM 3:  28 28 28 28 28 
+
+Node 13:
+VM 1:  14 14 14 14 18 
+VM 2:  28 28 28 28 14 
+VM 3:  17 17 17 17 28 
+
+Node 14:
+VM 1:  28 28 14 14 14 
+VM 2:  17 17 28 28 28 
+VM 3:  4 4 17 17 17 
+
+Node 15:
+VM 1:  17 17 17 17 17 
+VM 2:  4 4 4 4 4 
+VM 3:  2 2 2 2 2 
+
+Node 16:
+VM 1:  4 4 4 4 17 
+VM 2:  2 2 2 2 4 
+VM 3:  20 20 20 20 2 
+
+Node 17:
+VM 1:  2 2 4 4 4 
+VM 2:  20 20 2 2 2 
+VM 3:  5 5 20 20 20 
+
+Node 18:
+VM 1:  20 20 20 20 20 
+VM 2:  5 5 5 5 5 
+VM 3:  7 7 7 7 7 
+
+Node 19:
+VM 1:  5 5 5 5 5 
+VM 2:  7 7 7 7 7 
+VM 3:  27 27 27 27 27 
+
+Node 20:
+VM 1:  27 27 7 5 5 
+VM 2:  15 15 27 7 7 
+VM 3:  16 16 15 27 27 
+
+Node 21:
+VM 1:  15 15 27 27 27 
+VM 2:  16 16 15 15 15 
+VM 3:  21 21 16 16 16 
+
+Node 22:
+VM 1:  16 15 15 15 15 
+VM 2:  21 16 16 16 16 
+VM 3:  10 21 21 21 21 
+
+Node 23:
+VM 1:  21 21 21 21 21 
+VM 2:  10 10 10 10 10 
+VM 3:  3 3 3 3 3 
+
+Node 24:
+VM 1:  10 10 10 10 10 
+VM 2:  3 3 3 3 3 
+VM 3:  8 8 8 8 8 
+
+Node 25:
+VM 1:  25 8 8 8 8 
+VM 2:  26 25 25 25 25 
+VM 3:  19 26 26 26 26 
+
+Node 26:
+VM 1:  19 25 25 25 25 
+VM 2:  0 26 26 26 26 
+VM 3:  0 19 19 19 19 
+
+Node 27:
+VM 1:  0 0 0 19 19 
+VM 2:  0 0 0 0 0 
+VM 3:  0 0 0 0 0 
+
+The minimum number of nodes required is rand: 27
+
+Node 1:
+VM 1:  1 1 1 1 1 
+VM 2:  2 2 2 2 2 
+VM 3:  3 3 3 3 3 
+
+Node 2:
+VM 1:  1 1 1 1 1 
+VM 2:  2 2 2 2 2 
+VM 3:  3 3 3 3 3 
+
+Node 3:
+VM 1:  1 1 1 1 1 
+VM 2:  2 2 2 2 2 
+VM 3:  4 4 4 4 4 
+
+Node 4:
+VM 1:  4 4 4 4 1 
+VM 2:  5 5 5 5 4 
+VM 3:  6 6 6 6 5 
+
+Node 5:
+VM 1:  4 4 4 4 4 
+VM 2:  5 5 5 5 5 
+VM 3:  7 7 7 7 6 
+
+Node 6:
+VM 1:  7 5 5 5 5 
+VM 2:  8 7 7 7 7 
+VM 3:  9 8 8 8 8 
+
+Node 7:
+VM 1:  9 7 7 7 7 
+VM 2:  10 8 8 8 8 
+VM 3:  11 9 9 9 9 
+
+Node 8:
+VM 1:  9 9 9 9 9 
+VM 2:  10 10 10 10 10 
+VM 3:  11 11 11 11 11 
+
+Node 9:
+VM 1:  9 9 9 9 9 
+VM 2:  10 10 10 10 10 
+VM 3:  11 11 11 11 11 
+
+Node 10:
+VM 1:  11 11 11 11 9 
+VM 2:  12 12 12 12 11 
+VM 3:  13 13 13 13 12 
+
+Node 11:
+VM 1:  12 12 11 11 11 
+VM 2:  13 13 12 12 12 
+VM 3:  14 14 13 13 13 
+
+Node 12:
+VM 1:  12 12 12 12 12 
+VM 2:  13 13 13 13 13 
+VM 3:  14 14 14 14 14 
+
+Node 13:
+VM 1:  14 12 12 12 12 
+VM 2:  15 14 13 13 13 
+VM 3:  16 15 14 14 14 
+
+Node 14:
+VM 1:  15 14 14 14 14 
+VM 2:  16 15 15 15 15 
+VM 3:  17 16 16 16 16 
+
+Node 15:
+VM 1:  15 15 15 15 15 
+VM 2:  16 16 16 16 16 
+VM 3:  17 17 17 17 17 
+
+Node 16:
+VM 1:  17 17 17 17 16 
+VM 2:  18 18 18 18 17 
+VM 3:  19 19 19 19 18 
+
+Node 17:
+VM 1:  18 17 17 17 17 
+VM 2:  20 18 18 18 18 
+VM 3:  21 19 19 19 19 
+
+Node 18:
+VM 1:  18 18 18 18 18 
+VM 2:  20 20 20 20 20 
+VM 3:  21 21 21 21 21 
+
+Node 19:
+VM 1:  20 20 20 20 18 
+VM 2:  21 21 21 21 20 
+VM 3:  22 22 22 22 21 
+
+Node 20:
+VM 1:  22 22 20 20 20 
+VM 2:  23 23 22 22 21 
+VM 3:  24 24 23 23 22 
+
+Node 21:
+VM 1:  22 22 22 22 22 
+VM 2:  23 23 23 23 23 
+VM 3:  24 24 24 24 24 
+
+Node 22:
+VM 1:  23 23 23 22 22 
+VM 2:  24 24 24 23 23 
+VM 3:  25 25 25 24 24 
+
+Node 23:
+VM 1:  23 23 23 23 23 
+VM 2:  24 24 24 24 24 
+VM 3:  25 25 25 25 25 
+
+Node 24:
+VM 1:  26 26 23 23 23 
+VM 2:  27 27 26 26 25 
+VM 3:  28 28 27 27 26 
+
+Node 25:
+VM 1:  27 26 26 26 26 
+VM 2:  28 27 27 27 27 
+VM 3:  29 28 28 28 28 
+
+Node 26:
+VM 1:  28 27 27 27 27 
+VM 2:  0 28 28 28 28 
+VM 3:  0 0 29 29 29 
+
+Node 27:
+VM 1:  0 0 28 28 28 
+VM 2:  0 0 0 0 0 
+VM 3:  0 0 0 0 0 
+
+The minimum number of nodes required is hue: 27
+-----------------------------------------------------------------------------------
+
+Test Case: 
+Number of Jobs: 10
+Deadline of Job1 = 5, number of chunks in Job1 = 5
+Chunks Array: 5 6 9 6 5 
+Deadline of Job2 = 5, number of chunks in Job2 = 5
+Chunks Array: 1 6 7 4 9 
+Deadline of Job3 = 5, number of chunks in Job3 = 10
+Chunks Array: 8 6 8 6 6 5 2 8 5 4 
+Deadline of Job4 = 5, number of chunks in Job4 = 5
+Chunks Array: 2 8 9 7 4 
+Deadline of Job5 = 5, number of chunks in Job5 = 3
+Chunks Array: 9 8 3 
+Deadline of Job6 = 5, number of chunks in Job6 = 7
+Chunks Array: 7 7 5 7 2 8 9 
+Deadline of Job7 = 5, number of chunks in Job7 = 4
+Chunks Array: 8 8 2 1 
+Deadline of Job8 = 5, number of chunks in Job8 = 9
+Chunks Array: 9 9 9 9 2 2 4 2 4 
+Deadline of Job9 = 5, number of chunks in Job9 = 4
+Chunks Array: 4 4 1 5 
+Deadline of Job10 = 5, number of chunks in Job10 = 3
+Chunks Array: 7 2 7 
+No. of VM's : 3, Maximum Capacity: 5
+
+Node 1:
+VM 1:  9 9 1 1 1 
+VM 2:  2 2 9 9 9 
+VM 3:  8 8 2 2 2 
+
+Node 2:
+VM 1:  8 9 9 9 3 
+VM 2:  4 8 2 2 9 
+VM 3:  0 4 8 8 2 
+
+Node 3:
+VM 1:  4 4 4 8 8 
+VM 2:  7 7 7 4 4 
+VM 3:  5 5 5 7 7 
+
+Node 4:
+VM 1:  6 6 5 7 7 
+VM 2:  0 0 6 5 5 
+VM 3:  0 0 0 6 6 
+
+Node 5:
+VM 1:  0 0 0 0 6 
+VM 2:  0 0 0 0 0 
+VM 3:  0 0 0 0 0 
+
+The minimum number of nodes required is rand: 5
+
+Node 1:
+VM 1:  2 2 1 1 1 
+VM 2:  4 4 2 2 2 
+VM 3:  5 5 4 4 3 
+
+Node 2:
+VM 1:  6 5 2 2 2 
+VM 2:  7 6 4 4 4 
+VM 3:  0 7 5 5 5 
+
+Node 3:
+VM 1:  7 6 6 6 6 
+VM 2:  8 7 7 7 7 
+VM 3:  9 8 8 8 8 
+
+Node 4:
+VM 1:  9 9 8 8 8 
+VM 2:  0 0 9 9 9 
+VM 3:  0 0 0 0 0 
+
+Node 5:
+VM 1:  0 0 9 9 9 
+VM 2:  0 0 0 0 0 
+VM 3:  0 0 0 0 0 
+
+The minimum number of nodes required is hue: 5
+-----------------------------------------------------------------------------------
+
+Test Case: 
+Number of Jobs: 10
+Deadline of Job1 = 5, number of chunks in Job1 = 5
+Chunks Array: 5 2 9 5 7 
+Deadline of Job2 = 5, number of chunks in Job2 = 2
+Chunks Array: 6 4 
+Deadline of Job3 = 5, number of chunks in Job3 = 7
+Chunks Array: 3 7 2 3 3 2 9 
+Deadline of Job4 = 5, number of chunks in Job4 = 1
+Chunks Array: 7 
+Deadline of Job5 = 5, number of chunks in Job5 = 5
+Chunks Array: 6 2 8 6 9 
+Deadline of Job6 = 5, number of chunks in Job6 = 7
+Chunks Array: 2 3 8 4 4 6 6 
+Deadline of Job7 = 5, number of chunks in Job7 = 3
+Chunks Array: 4 9 2 
+Deadline of Job8 = 5, number of chunks in Job8 = 3
+Chunks Array: 1 7 2 
+Deadline of Job9 = 5, number of chunks in Job9 = 2
+Chunks Array: 2 7 
+Deadline of Job10 = 5, number of chunks in Job10 = 2
+Chunks Array: 7 6 
+No. of VM's : 3, Maximum Capacity: 5
+
+Node 1:
+VM 1:  2 3 3 3 3 
+VM 2:  6 2 2 2 1 
+VM 3:  7 6 6 6 2 
+
+Node 2:
+VM 1:  7 4 4 4 4 
+VM 2:  0 6 2 8 8 
+VM 3:  0 7 6 2 2 
+
+Node 3:
+VM 1:  0 9 9 9 9 
+VM 2:  0 0 7 5 5 
+VM 3:  0 0 0 7 7 
+
+The minimum number of nodes required is rand: 3
+
+Node 1:
+VM 1:  2 2 2 2 1 
+VM 2:  4 3 3 3 2 
+VM 3:  5 4 4 4 3 
+
+Node 2:
+VM 1:  6 6 2 2 2 
+VM 2:  7 7 6 6 5 
+VM 3:  8 8 7 7 6 
+
+Node 3:
+VM 1:  0 9 9 7 6 
+VM 2:  0 0 0 9 7 
+VM 3:  0 0 0 0 9 
+
+The minimum number of nodes required is hue: 3
+-----------------------------------------------------------------------------------
+
+Test Case: 
+Number of Jobs: 10
+Deadline of Job1 = 5, number of chunks in Job1 = 9
+Chunks Array: 3 4 9 6 3 9 1 5 8 
+Deadline of Job2 = 5, number of chunks in Job2 = 5
+Chunks Array: 6 1 3 6 2 
+Deadline of Job3 = 5, number of chunks in Job3 = 2
+Chunks Array: 7 1 
+Deadline of Job4 = 5, number of chunks in Job4 = 1
+Chunks Array: 3 
+Deadline of Job5 = 5, number of chunks in Job5 = 8
+Chunks Array: 1 8 7 2 3 5 4 4 
+Deadline of Job6 = 5, number of chunks in Job6 = 4
+Chunks Array: 7 2 9 4 
+Deadline of Job7 = 5, number of chunks in Job7 = 4
+Chunks Array: 2 5 5 9 
+Deadline of Job8 = 5, number of chunks in Job8 = 6
+Chunks Array: 6 6 4 6 9 3 
+Deadline of Job9 = 5, number of chunks in Job9 = 3
+Chunks Array: 6 9 9 
+Deadline of Job10 = 5, number of chunks in Job10 = 1
+Chunks Array: 4 
+No. of VM's : 3, Maximum Capacity: 5
+
+Node 1:
+VM 1:  6 1 1 1 1 
+VM 2:  9 6 6 6 6 
+VM 3:  3 9 9 9 9 
+
+Node 2:
+VM 1:  3 2 2 2 2 
+VM 2:  4 3 3 6 6 
+VM 3:  0 4 4 9 9 
+
+Node 3:
+VM 1:  0 5 5 5 5 
+VM 2:  0 0 4 3 3 
+VM 3:  0 0 0 4 4 
+
+Node 4:
+VM 1:  0 0 7 7 7 
+VM 2:  0 0 0 8 8 
+VM 3:  0 0 0 0 0 
+
+The minimum number of nodes required is rand: 4
+
+Node 1:
+VM 1:  3 1 1 1 1 
+VM 2:  4 2 2 2 2 
+VM 3:  5 3 3 3 3 
+
+Node 2:
+VM 1:  4 4 4 4 3 
+VM 2:  6 6 5 5 4 
+VM 3:  7 7 6 6 5 
+
+Node 3:
+VM 1:  9 9 6 6 6 
+VM 2:  0 0 9 8 7 
+VM 3:  0 0 0 9 8 
+
+Node 4:
+VM 1:  0 0 9 9 9 
+VM 2:  0 0 0 0 0 
+VM 3:  0 0 0 0 0 
+
+The minimum number of nodes required is hue: 4
+-----------------------------------------------------------------------------------
+
+Test Case: 
+Number of Jobs: 10
+Deadline of Job1 = 5, number of chunks in Job1 = 5
+Chunks Array: 8 5 1 9 2 
+Deadline of Job2 = 5, number of chunks in Job2 = 1
+Chunks Array: 5 
+Deadline of Job3 = 5, number of chunks in Job3 = 1
+Chunks Array: 8 
+Deadline of Job4 = 5, number of chunks in Job4 = 10
+Chunks Array: 4 4 1 6 4 7 9 1 5 3 
+Deadline of Job5 = 5, number of chunks in Job5 = 10
+Chunks Array: 6 2 2 9 9 1 4 5 9 2 
+Deadline of Job6 = 5, number of chunks in Job6 = 6
+Chunks Array: 4 9 8 3 3 3 
+Deadline of Job7 = 5, number of chunks in Job7 = 10
+Chunks Array: 1 5 5 2 2 4 5 4 6 3 
+Deadline of Job8 = 5, number of chunks in Job8 = 1
+Chunks Array: 1 
+Deadline of Job9 = 5, number of chunks in Job9 = 7
+Chunks Array: 9 2 2 6 8 6 7 
+Deadline of Job10 = 5, number of chunks in Job10 = 5
+Chunks Array: 5 3 7 9 7 
+No. of VM's : 3, Maximum Capacity: 5
+
+Node 1:
+VM 1:  6 6 6 6 6 
+VM 2:  2 2 2 2 2 
+VM 3:  5 5 5 5 5 
+
+Node 2:
+VM 1:  9 7 7 7 7 
+VM 2:  4 9 2 2 2 
+VM 3:  0 4 5 5 5 
+
+Node 3:
+VM 1:  9 8 8 8 8 
+VM 2:  4 9 9 9 9 
+VM 3:  1 4 4 4 4 
+
+Node 4:
+VM 1:  1 1 1 1 9 
+VM 2:  3 3 3 3 1 
+VM 3:  0 0 0 0 3 
+
+Node 5:
+VM 1:  0 0 0 0 3 
+VM 2:  0 0 0 0 0 
+VM 3:  0 0 0 0 0 
+
+The minimum number of nodes required is rand: 5
+
+Node 1:
+VM 1:  1 1 1 1 1 
+VM 2:  2 2 2 2 2 
+VM 3:  3 3 3 3 3 
+
+Node 2:
+VM 1:  4 4 2 2 1 
+VM 2:  5 5 4 4 2 
+VM 3:  0 0 5 5 3 
+
+Node 3:
+VM 1:  6 5 4 4 4 
+VM 2:  7 6 5 5 5 
+VM 3:  8 7 6 6 6 
+
+Node 4:
+VM 1:  9 9 8 7 7 
+VM 2:  0 0 9 8 8 
+VM 3:  0 0 0 9 9 
+
+Node 5:
+VM 1:  0 0 9 9 9 
+VM 2:  0 0 0 0 0 
+VM 3:  0 0 0 0 0 
+
+The minimum number of nodes required is hue: 5
+-----------------------------------------------------------------------------------
